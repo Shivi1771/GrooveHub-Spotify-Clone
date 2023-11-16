@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrooveHub - Your Favourite Music App</title>
+    <link rel="stylesheet" href="spotify.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="img/favicon/apple-touch-icon.png">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.jpeg" alt="">GrooveHub</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Shivi's PlayList </h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="songName">Let me Love You - Justin Beiber</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="0" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/2.jpg" alt="1">
+                    <span class="songName">Siyah - Abdul Hannan</span>
+                    <span class="songlistplay"><span class="timestamp">02:51 <i id="1" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>                
+                <div class="songItem">
+                    <img src="covers/3.jpg" alt="1">
+                    <span class="songName">Nasamajh - Aditya Rikhari</span>
+                    <span class="songlistplay"><span class="timestamp">04:09 <i id="2" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/4.jpg" alt="1">
+                    <span class="songName">Meri Baaton Mein Tu - Anuv Jain</span>
+                    <span class="songlistplay"><span class="timestamp">03:33 <i id="3" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/5.jpg" alt="1">
+                    <span class="songName">Iraaday - Abdul Hannan</span>
+                    <span class="songlistplay"><span class="timestamp">02:13 <i id="4" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/6.jpg" alt="1">
+                    <span class="songName">No Guidance - Chris Brown Ft. Drake</span>
+                    <span class="songlistplay"><span class="timestamp">04:20 <i id="5" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/7.jpg" alt="1">
+                    <span class="songName">Can't Hold Us - Macklemore</span>
+                    <span class="songlistplay"><span class="timestamp">04:19 <i id="6" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/8.jpg" alt="1">
+                    <span class="songName">Glad You Came - The Wanted</span>
+                    <span class="songlistplay"><span class="timestamp">03:19 <i id="7" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/9.jpg" alt="1">
+                    <span class="songName">One Love - Blue</span>
+                    <span class="songlistplay"><span class="timestamp">03:27 <i id="8" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="1">
+                    <span class="songName">Stressed Out - Twenty One Pilots</span>
+                    <span class="songlistplay"><span class="timestamp">03:22 <i id="9" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Let me Love You - Justin Beiber</span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/092fb25b53.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
